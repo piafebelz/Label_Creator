@@ -1,0 +1,354 @@
+{
+  "Form": {
+    "required": "Bu Alan Zorunludur.",
+    "minNumber": "Minimum Değer Giriniz",
+    "maxNumber": "Maksimum Değer Giriniz",
+    "email": "Email Formatı Yanlıştır.",
+    "minLength": "Minimum Değer Giriniz",
+    "maxLength": "Maksimum Değer Giriniz"
+  },
+  "Dialog": {
+    "Title": {
+      "Logout": "Çıkış Yap",
+      "Cancel": "İŞLEMİ İPTAL ET",
+      "Summary": {
+        "Close": "MEVCUT BOHÇAYI KAPAT",
+        "OrderAcceptance": "SİPARİŞ KABÜLÜ TAMAMLA",
+        "GoodsAcceptance": "ÜRÜN KABÜLÜ TAMAMLA"
+      }
+    },
+    "Body": {
+      "Logout": "Çıkış yapmak istediğinize emin misiniz?",
+      "Cancel": "İşleminizi yarım bırakıp çıkmak istediğinize emin misiniz?",
+      "Summary": {
+        "Close": {
+          "OrderAcceptance": "Bu sipariş kabul için mevcut bohçayı kapatmak istediğinize emin misiniz?",
+          "GoodsAcceptance": "Bu ürün kabul için mevcut bohçayı kapatmak istediğinize emin misiniz?"
+        },
+        "OrderAcceptance": "Bu sipariş kabulü tamamlayıp, işleminizi sonlandırmak istediğinize emin misiniz?",
+        "GoodsAcceptance": "Bu ürün kabulü tamamlayıp, işleminizi sonlandırmak istediğinize emin misiniz?"
+      }
+    },
+    "Button": {
+      "Accept": "EVET",
+      "Cancel": "İPTAL"
+    }
+  },
+  "LoginScreen": {
+    "Email": "E-Posta Adresi",
+    "Password": "Şifre",
+    "Button": "GİRİŞ YAP",
+    "Help": "Yardım",
+    "Error": "Kullanıcı Adı veya Şifre Yanlış"
+  },
+  "DrawerMenu": {
+    "Title": {
+      "OrderAcceptance": "MAL KABUL",
+      "Summary": "TOPLAMA",
+      "Return": "İADE",
+      "WarehouseMovements": "DEPO İÇİ HAREKETLER",
+      "Profile": "PROFİL"
+    },
+    "DrawerItems": {
+      "Menu": "İşlemler",
+      "OrderAcceptance": "Sipariş Kabul",
+      "GoodsAcceptance": "Ürün Kabul",
+      "Stock": "Stoğa Alma",
+      "Quarantine": "Karantinalı Ürünler",
+      "Summary": "Toplama",
+      "Container": "Konteyner Durum",
+      "ProductDetail": "Ürün Detay",
+      "ProductLocation": "Ürün Yeri",
+      "UserInformation": "Kullanıcı Bilgileri",
+      "CompanyInformation": "Firma Bilgileri",
+      "Logout": "Çıkış Yap"
+    }
+  },
+  "MenuScreen": {
+    "Header": "İŞLEMLER",
+    "Title": {
+      "OrderAcceptance": "MAL KABUL",
+      "Summary": "TOPLAMA",
+      "Return": "İADE",
+      "WarehouseMovements": "DEPO İÇİ HAREKETLER",
+      "Profile": "PROFİL"
+    },
+    "Cards": {
+      "OrderAcceptance": "Sipariş Kabul",
+      "GoodsAcceptance": "Ürün Kabul",
+      "Stock": "Stoğa Alma",
+      "Quarantine": "Karantinalı Ürünler",
+      "Summary": "Toplama",
+      "Container": "Konteyner Durum",
+      "ProductDetail": "Ürün Detay",
+      "ProductLocation": "Ürün Yeri",
+      "UserInformation": "Kullanıcı Bilgileri",
+      "CompanyInformation": "Firma Bilgileri",
+      "Logout": "Çıkış Yap"
+    },
+    "Error": "Sayfa yüklenirken hata meydana geldi."
+  },
+  "StatusBar": {
+    "Internet": "Lütfen internet bağlantınızı kontrol edin.",
+    "Bluetooth": "Lütfen bluetooth bağlantınızı kontrol edin."
+  },
+  "NewOrderAcceptanceScreen": {
+    "Header": "Sipariş Kabul",
+    "Text": "Yarım kalan sipariş kabulünüz bulunmamaktadır. Aşağıdaki butona tıklayıp yeni bir sipariş kabule başlayabilirsiniz.",
+    "Button": "YENİ SİPARİŞ KABULE BAŞLA",
+    "Cards": {
+      "Title": "Yarım Kalan Sipariş Kabuller",
+      "PONumber": "PO NUMARASI",
+      "OrderAcceptanceNo": "MAL KABUL NO",
+      "Button": "SİPARİŞ KABULE DEVAM ET"
+    }
+  },
+  "InboundNewOrderAcceptenceScreen": {
+    "Header": {
+      "NewOrderAcceptence": "Yeni Sipariş Kabul"
+    },
+    "Pipeline": {
+      "SelectOperation": "Operasyon Seç",
+      "SelectOrder": "Sipariş Seç",
+      "WaybillInfo": "İrsaliye Bilgileri"
+    },
+    "SnackBar": {
+      "SelectOperation": "Operasyon arayın ya da operasyona ait bir ürün okutun.",
+      "SelectOrder": "PO Numarası seçin ya da bir barkod okutun.",
+      "WaybillForm": "İrsaliye bilgilerini girin ve irsaliyenin fotoğrafını çekin.",
+      "SummaryInfo": "Bilgileri kontrol edip, sipariş kabulü başlatın."
+    },
+    "SelectOperationScreen": {
+      "Search": "Operasyon Seçin..."
+    },
+    "SelectOrderScreen": {
+      "Search": "Satış siparişi seçin...",
+      "Button": "SİPARİŞ OLMADAN DEVAM ET"
+    },
+    "WaybillFormScreen": {
+      "TextInputWaybillNo": "İrsaliye no girin…",
+      "TextInputWaybillDate": "İrsaliye tarihi seçin...",
+      "TextInputPhoto": "İrsaliye fotoğrafı yükleyin…",
+      "Info": "Lütfen irsaliye kağıdının dik konumda olduğuna ve irsaliyenin okunur olduğuna dikkat edin.",
+      "Button": "DEVAM ET",
+      "Title": "RESİM KAYNAĞINI SEÇİN",
+      "Camera": "Kamera",
+      "Gallery": "Galeri",
+      "BottomSheetButton": "İPTAL ET"
+    },
+    "Error": "Bu satın alma siparişi için sipariş kabul zaten başlatılmıştır."
+  },
+  "InboundOrderAcceptenceScreen": {
+    "Header": {
+      "OrderAcceptance": "Sipariş Kabul",
+      "Summary": "Sipariş Kabul Özeti"
+    },
+    "Pipeline": {
+      "ScanProduct": "Ürün Okut",
+      "CheckProduct": "Kontrol Et",
+      "ScanBasket": "Sepet Okut",
+      "LeaveProductBasket": "Ürünü Sepete Bırak",
+      "EnterQuantity": "Ürün Miktarı Gir",
+      "LeaveProduct": "Sepete Bırak"
+    }
+  },
+  "InboundNewGoodsAcceptanceScreen": {
+    "Pipeline": {
+      "ScanBundle": "Bohça Okut",
+      "CheckProduct": "Kontrol Et"
+    }
+  },
+  "NewGoodsAcceptanceScreen": {
+    "Header": "Ürün Kabul",
+    "Text": "Yarım kalan ürün kabulünüz bulunmamaktadır. Aşağıdaki butona tıklayıp yeni bir ürün kabule başlayabilirsiniz.",
+    "Button": "YENİ ÜRÜN KABULE BAŞLA",
+    "Cards": {
+      "Title": "Yarım Kalan Ürün Kabuller",
+      "PONumber": "PO NUMARASI",
+      "Tag": "BOHÇA ETİKETİ",
+      "OrderAcceptanceNo": "MAL KABUL NO",
+      "Button": "ÜRÜN KABULE DEVAM ET"
+    }
+  },
+  "InboundGoodsAcceptanceScreen": {
+    "Pipeline": {
+      "ScanProduct": "Ürün Okut",
+      "CheckProduct": "Kontrol Et",
+      "EnterQuantity": "Miktar Gir",
+      "ScanBasket": "Sepet Okut",
+      "LeaveBasket": "Sepete Bırak"
+    }
+  },
+  "Header": {
+    "NewGoodsAcceptance": "Yeni Ürün Kabul",
+    "GoodsAcceptance": "Ürün Kabul"
+  },
+  "InventoryItemState": {
+    "Header": {
+      "Barcodeless": "Barkodsuz Ürün",
+      "Proper": "Problemsiz Ürün",
+      "Unmeasured": "Ölçüsüz Ürün",
+      "Unknown": "Tanımsız Ürün",
+      "Damaged": "Hasarlı Ürün"
+    },
+    "Proper": "PROBLEMSİZ",
+    "Barcodeless": "BARKODSUZ",
+    "Unmeasured": "ÖLÇÜSÜZ",
+    "Unknown": "TANIMSIZ",
+    "Damaged": "HASARLI"
+  },
+  "ScanProduct": {
+    "SnackBar": "Ürün barkodunu okutun veya barkodsuz devam edin.",
+    "ScanBundle": "Bohça barkodunu okutarak devam edin.",
+    "Button": "BARKODSUZ DEVAM ET",
+    "Error": "Okutulan barkoda ilişkin ürün bulunamadı."
+  },
+  "ScanBundle": {
+    "Error": "Okutulan barkoda ilişkin bohça bulunamadı."
+  },
+  "ProductInfo": {
+    "SnackBar": {
+      "OrderAcceptance": {
+        "Proper": "Ürün bilgilerini kontrol edin ve ürün hasarlıysa belirtin.",
+        "Barcodeless": "Barkodsuz ürünü sepete koymak için hazırlayın.",
+        "UnKnown": "Tanımsız ürünü sepete koymak için hazırlayın.",
+        "Unmeasured": "Ölçüsüz ürünü sepete koymak için hazırlayın.",
+        "Damaged": "Ürünü hasarlı olarak tanımladınız! Hasarlı ürünü sepete koymak için hazırlayın."
+      },
+      "GoodsAcceptance": {
+        "Proper": "Ürün bilgilerini kontrol edip miktar girin ve ürün hasarlıysa belirtin.",
+        "Barcodeless": "Ürün barkodu sistemde kayıtlı değil! Ürün bilgilerini kontrol edip devam edin.",
+        "UnKnown": "Ürüne ait bir tanım bulunamadı! Ürün bilgilerini kontrol edip devam edin.",
+        "Unmeasured": "Ürün ölçüleri sistemde bulunamadı! Ürün bilgilerini kontrol edip miktar girin.",
+        "Damaged": "Ürünü hasarlı olarak tanımladınız! Ürün bilgilerini kontrol edip miktar girin."
+      }
+    },
+    "ProductInfoCard": {
+      "BarcodeNo": "Barkod No: ",
+      "Sku": "SKU: ",
+      "ProductName": "Ürün Adı: ",
+      "Dimension": "En x Boy x Yükseklik: ",
+      "Weight": "Ağırlık: "
+    },
+    "Button": {
+      "OrderAcceptance": {
+        "Barcodeless": "BARKODSUZ ÜRÜNLE DEVAM ET",
+        "Unknown": "TANIMSIZ ÜRÜNLE DEVAM ET",
+        "Unmeasured": "ÖLÇÜSÜZ ÜRÜNLE DEVAM ET",
+        "Damaged": "HASARLI ÜRÜNLE DEVAM ET"
+      },
+      "GoodsAcceptance": "DEVAM ET",
+      "ProperDamaged": "HASARLI ÜRÜN",
+      "ProperNext": "SONRAKİ ÜRÜN"
+    }
+  },
+  "ScanTote": {
+    "SnackBar": {
+      "OrderAcceptance": {
+        "Barcodeless": "Boş bir sepet veya bu siparişe ait bir \"Barkodsuz Ürün Sepeti\" barkodu okutun.",
+        "UnKnown": "Boş bir sepet veya bu siparişe ait bir \"Tanımsız Ürün Sepeti\" barkodu okutun.",
+        "Unmeasured": "Boş bir sepet veya bu siparişe ait bir \"Ölçüsüz Ürün Sepeti\" barkodu okutun.",
+        "Damaged": "Boş bir sepet veya bu siparişe ait bir \"Hasarlı Ürün Sepeti\" barkodu okutun."
+      },
+      "GoodsAcceptance": {
+        "Proper": "Boş bir sepet veya müsait ürünlerin bulunduğu bir sepet barkodu okutun.",
+        "Barcodeless": "Boş bir sepet veya bu ürün kabule ait bir \"Barkodsuz Ürün Sepeti\" barkodu okutun.",
+        "UnKnown": "Boş bir sepet veya bu ürün kabule ait bir \"Tanımsız Ürün Sepeti\" barkodu okutun.",
+        "Unmeasured": "Boş bir sepet veya bu ürün kabule ait bir \"Ölçüsüz Ürün Sepeti\" barkodu okutun.",
+        "Damaged": "Boş bir sepet veya bu ürün kabule ait bir \"Hasarlı Ürün Sepeti\" barkodu okutun."
+      }
+    },
+    "Error": "Sepet farklı türde karantina ürünleri barındıyor."
+  },
+  "EnterQuantity": {
+    "SnackBar": {
+      "Unmeasured": "Lütfen ölçüsüz ürün miktarını girin.",
+      "Damaged": "Lütfen hasarlı ürün miktarını girin."
+    },
+    "Title": {
+      "Proper": "PROBLEMSİZ ÜRÜN MİKTARI",
+      "Damaged": "HASARLI ÜRÜN MİKTARI",
+      "Unmeasured": "ÖLÇÜSÜZ ÜRÜN MİKTARI"
+    },
+    "Button": "DEVAM ET",
+    "Error": {
+      "Unmeasured": "Ölçüsüz ürün miktarı girin.",
+      "Damaged": "Hasarlı ürün miktarı girin."
+    }
+  },
+  "TransferToTote": {
+    "SnackBar": "Lütfen ürünü, barkodunu okuttuğunuz sepete bırakın.",
+    "TransferToToteCard": {
+      "Title": "İşlem Kontrolü",
+      "Basket": "Okutulan Sepet:",
+      "Problem": "Ürün Problemi:",
+      "ProblemQuantity": "Problemli Ürün Miktarı:",
+      "ProperProblemQuantity": "Problemsiz Ürün Miktarı:"
+    },
+    "Button": {
+      "Barcodeless": "BARKODSUZ ÜRÜNÜ SEPETE BIRAKTIM",
+      "Proper": "PROBLEMSİZ ÜRÜNÜ SEPETE BIRAKTIM",
+      "Unmeasured": "ÖLÇÜSÜZ ÜRÜNÜ SEPETE BIRAKTIM",
+      "Unknown": "TANIMSIZ ÜRÜNÜ SEPETE BIRAKTIM",
+      "Damaged": "HASARLI ÜRÜNÜ SEPETE BIRAKTIM"
+    },
+    "Success": "Ürün sepete başarılı bir şekilde bırakıldı.",
+    "Error": "Beklenilmeyen bir hata oluştu. Ürün sepete bırakılamadı."
+  },
+  "Summary": {
+    "Header": {
+      "GoodsAcceptance": "Ürün Kabul Özeti"
+    },
+    "SnackBar": {
+      "OrderAcceptance": "Hasarlı ürünler için lütfen müşteriyle iletişime geçin!",
+      "NewGoodsAcceptance": "Satış siparişi, mal kabul ve bohça bilgilerini kontrol edin ve ürün kabule başlayın."
+    },
+    "CurrentBundleCount": "ŞU ANA KADARKİ BOHÇA",
+    "Card": {
+      "SalesOrder": "SATIŞ SİPARİŞİ",
+      "Waybill": "İRSALİYE",
+      "GoodsAcceptance": "MAL KABUL",
+      "Bundle": "BOHÇA"
+    },
+    "StockCard": {
+      "Title": "Şu Ana Kadar Stoğa Alınan Ürünler",
+      "SKU": "SKU",
+      "ProductName": "ÜRÜN ADI",
+      "Count": "ADET"
+    },
+    "Button": {
+      "NewOrderAcceptance": "SİPARİŞ KABÜLÜ BAŞLAT",
+      "NewGoodsAcceptance": "ÜRÜN KABULE BAŞLA",
+      "OrderAcceptance": {
+        "Close": "MEVCUT BOHÇAYI KAPAT",
+        "Complate": "SİPARİŞ KABULÜ TAMAMLA"
+      },
+      "GoodsAcceptance": {
+        "Close": "MEVCUT BOHÇAYI KAPAT",
+        "Complate": "ÜRÜN KABULÜ TAMAMLA"
+      }
+    },
+    "Success": {
+      "SummaryInfo": "Sipariş kabül başarılı bir şekilde başlatıldı.",
+      "OrderAcceptance": {
+        "Bundle": "Bohça başarılı bir şekilde kapatıldı.",
+        "Complate": "Sipariş kabül başarılı bir şekilde tamamlandı."
+      },
+      "NewGoodsAcceptance": "Ürün kabül başarılı bir şekilde başlatıldı.",
+      "GoodsAcceptance": {
+        "Complate": "Ürün kabül başarılı bir şekilde tamamlandı."
+      }
+    },
+    "Error": {
+      "SummaryInfo": "Bu referans numarasıyla daha önce sipariş kabul oluşturulmuştur.",
+      "OrderAcceptance": {
+        "Bundle": "Beklenilmeyen bir hata oluştu. Bohça kapatılamadı.",
+        "Complate": "Beklenilmeyen bir hata oluştu. Sipariş kabül tamamlanamadı."
+      },
+      "NewGoodsAcceptance": "Ürün kabüle başlamak için, geçerli bir bohça bulunamadı.",
+      "GoodsAcceptance": {
+        "Complate": "Beklenilmeyen bir hata oluştu. Ürün kabül tamamlanamadı."
+      }
+    }
+  }
+}

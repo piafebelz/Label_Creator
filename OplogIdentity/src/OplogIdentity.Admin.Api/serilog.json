@@ -1,0 +1,37 @@
+﻿{
+    "Serilog": {
+        "MinimumLevel": {
+            "Default": "Error",
+            "Override": {
+                "Skoruba": "Information"
+            }
+        },
+        "WriteTo": [
+            {
+                "Name": "Console"
+            },
+            {
+                "Name": "File",
+                "Args": {
+                    "path": "Log\\skoruba_admin.txt",
+                    "rollingInterval": "Day"
+                }
+            },
+            {
+                "Name": "MSSqlServer",
+                "Args": {
+                    "connectionString": "server=localhost;user=sa;password=Justin08*;database=oplog-identity",
+                    "tableName": "Log",
+                    "columnOptionsSection": {
+                        "addStandardColumns": [
+                            "LogEvent"
+                        ],
+                        "removeStandardColumns": [
+                            "Properties"
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

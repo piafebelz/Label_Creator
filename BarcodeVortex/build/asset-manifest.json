@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f1c81d97.chunk.css",
+    "main.js": "/static/js/main.f2e0bccb.chunk.js",
+    "main.js.map": "/static/js/main.f2e0bccb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2658818d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2658818d.js.map",
+    "static/js/2.dbc8a6a0.chunk.js": "/static/js/2.dbc8a6a0.chunk.js",
+    "static/js/2.dbc8a6a0.chunk.js.map": "/static/js/2.dbc8a6a0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.559f49de66ff1195c16aed444738d25a.js": "/precache-manifest.559f49de66ff1195c16aed444738d25a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.f1c81d97.chunk.css.map": "/static/css/main.f1c81d97.chunk.css.map",
+    "static/js/2.dbc8a6a0.chunk.js.LICENSE.txt": "/static/js/2.dbc8a6a0.chunk.js.LICENSE.txt",
+    "static/media/Cabin-Regular.ttf": "/static/media/Cabin-Regular.b308848b.ttf",
+    "static/media/taller_evolution_rev.ttf": "/static/media/taller_evolution_rev.59266850.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2658818d.js",
+    "static/js/2.dbc8a6a0.chunk.js",
+    "static/css/main.f1c81d97.chunk.css",
+    "static/js/main.f2e0bccb.chunk.js"
+  ]
+}
