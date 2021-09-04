@@ -1,0 +1,58 @@
+{
+    "manifestVersion": 1,
+    "id": "wi-expension-pack",
+    "publisher": "OPLOG",
+    "version": "0.0.7",
+    "name": "WI Expension Pack",
+    "description": "WIs on streoids for Agile Teams",
+    "public": false,
+    "categories": [
+        "Azure Repos"
+    ],
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "my-hub",
+            "type": "ms.vss-web.hub",
+            "targets": [
+                "ms.vss-code-web.code-hub-group"
+            ],
+            "properties": {
+                "name": "Shield Tool",
+                "uri": "my-hub.html"
+            }
+        },
+        {  
+            "id": "sample-work-item-form-control",
+            "type": "ms.vss-work-web.work-item-form-control",
+            "description": "Custom field for Figma Links",
+            "targets": [
+                "ms.vss-work-web.work-item-form"
+            ],
+            "properties": {
+                "name": "Figma Links",
+                "uri": "workItemPage.html",
+                "height": 600
+            }
+        }
+    ],
+    "files": [
+        {
+            "path": "my-hub.html",
+            "addressable": true
+        },
+        {
+            "path": "workItemPage.html",
+            "addressable": true
+        },
+        {
+            "path": "node_modules/vss-web-extension-sdk/lib",
+            "addressable": true,
+            "packagePath": "lib"
+        }
+    ]
+}
