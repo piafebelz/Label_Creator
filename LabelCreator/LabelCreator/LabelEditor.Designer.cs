@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formEditor));
             this.txtEditor = new System.Windows.Forms.RichTextBox();
             this.menuMain = new System.Windows.Forms.MenuStrip();
             this.menuFile = new System.Windows.Forms.ToolStripMenuItem();
@@ -61,7 +62,7 @@
             // 
             this.txtEditor.AllowDrop = true;
             this.txtEditor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtEditor.Location = new System.Drawing.Point(704, 125);
+            this.txtEditor.Location = new System.Drawing.Point(704, 150);
             this.txtEditor.Name = "txtEditor";
             this.txtEditor.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
             this.txtEditor.Size = new System.Drawing.Size(122, 153);
@@ -97,7 +98,7 @@
             // fileNewFile
             // 
             this.fileNewFile.Name = "fileNewFile";
-            this.fileNewFile.Size = new System.Drawing.Size(180, 22);
+            this.fileNewFile.Size = new System.Drawing.Size(119, 22);
             this.fileNewFile.Text = "&New File";
             this.fileNewFile.Click += new System.EventHandler(this.fileNewFile_Click);
             // 
@@ -106,28 +107,28 @@
             this.openToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.openText});
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.openToolStripMenuItem.Text = "&Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.menuFileOpen_Click);
             // 
             // openText
             // 
             this.openText.Name = "openText";
-            this.openText.Size = new System.Drawing.Size(128, 22);
+            this.openText.Size = new System.Drawing.Size(116, 22);
             this.openText.Text = "&Text File";
             this.openText.Click += new System.EventHandler(this.openTexFile_Click);
             // 
             // savetryToolStripMenuItem
             // 
             this.savetryToolStripMenuItem.Name = "savetryToolStripMenuItem";
-            this.savetryToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.savetryToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.savetryToolStripMenuItem.Text = "Save";
             this.savetryToolStripMenuItem.Click += new System.EventHandler(this.savetryToolStripMenuItem_Click);
             // 
             // fileExit
             // 
             this.fileExit.Name = "fileExit";
-            this.fileExit.Size = new System.Drawing.Size(180, 22);
+            this.fileExit.Size = new System.Drawing.Size(119, 22);
             this.fileExit.Text = "Exit";
             this.fileExit.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -146,21 +147,21 @@
             // menuBoldFormat
             // 
             this.menuBoldFormat.Name = "menuBoldFormat";
-            this.menuBoldFormat.Size = new System.Drawing.Size(180, 22);
+            this.menuBoldFormat.Size = new System.Drawing.Size(125, 22);
             this.menuBoldFormat.Text = "&Bold";
             this.menuBoldFormat.Click += new System.EventHandler(this.menuBoldFormat_Click);
             // 
             // menuItalicFormat
             // 
             this.menuItalicFormat.Name = "menuItalicFormat";
-            this.menuItalicFormat.Size = new System.Drawing.Size(180, 22);
+            this.menuItalicFormat.Size = new System.Drawing.Size(125, 22);
             this.menuItalicFormat.Text = "&Italic";
             this.menuItalicFormat.Click += new System.EventHandler(this.menuItalicFormat_Click);
             // 
             // menuUnderlineFormat
             // 
             this.menuUnderlineFormat.Name = "menuUnderlineFormat";
-            this.menuUnderlineFormat.Size = new System.Drawing.Size(180, 22);
+            this.menuUnderlineFormat.Size = new System.Drawing.Size(125, 22);
             this.menuUnderlineFormat.Text = "&Underline";
             this.menuUnderlineFormat.Click += new System.EventHandler(this.menuUnderlineFormat_Click);
             // 
@@ -171,7 +172,7 @@
             this.sizeMedium,
             this.sizeLarge});
             this.menuSizeFormat.Name = "menuSizeFormat";
-            this.menuSizeFormat.Size = new System.Drawing.Size(180, 22);
+            this.menuSizeFormat.Size = new System.Drawing.Size(125, 22);
             this.menuSizeFormat.Text = "&Size";
             this.menuSizeFormat.Click += new System.EventHandler(this.menuSizeFormat_click);
             // 
@@ -218,7 +219,7 @@
             // btnDynText
             // 
             this.btnDynText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnDynText.Location = new System.Drawing.Point(704, 324);
+            this.btnDynText.Location = new System.Drawing.Point(704, 349);
             this.btnDynText.Name = "btnDynText";
             this.btnDynText.Size = new System.Drawing.Size(100, 33);
             this.btnDynText.TabIndex = 4;
@@ -229,7 +230,7 @@
             // button2
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(704, 363);
+            this.button2.Location = new System.Drawing.Point(704, 388);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 33);
             this.button2.TabIndex = 5;
@@ -240,7 +241,7 @@
             // openPanel
             // 
             this.openPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.openPanel.Location = new System.Drawing.Point(704, 284);
+            this.openPanel.Location = new System.Drawing.Point(704, 309);
             this.openPanel.Name = "openPanel";
             this.openPanel.Size = new System.Drawing.Size(100, 34);
             this.openPanel.TabIndex = 8;
@@ -251,7 +252,7 @@
             // Header
             // 
             this.Header.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Header.Location = new System.Drawing.Point(704, 2);
+            this.Header.Location = new System.Drawing.Point(704, 27);
             this.Header.Name = "Header";
             this.Header.Size = new System.Drawing.Size(122, 35);
             this.Header.TabIndex = 11;
@@ -262,7 +263,7 @@
             // Standard
             // 
             this.Standard.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Standard.Location = new System.Drawing.Point(704, 84);
+            this.Standard.Location = new System.Drawing.Point(704, 109);
             this.Standard.Name = "Standard";
             this.Standard.Size = new System.Drawing.Size(122, 35);
             this.Standard.TabIndex = 12;
@@ -273,7 +274,7 @@
             // Generate
             // 
             this.Generate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Generate.Location = new System.Drawing.Point(704, 402);
+            this.Generate.Location = new System.Drawing.Point(704, 427);
             this.Generate.Name = "Generate";
             this.Generate.Size = new System.Drawing.Size(100, 31);
             this.Generate.TabIndex = 13;
@@ -284,7 +285,7 @@
             // SubHeader
             // 
             this.SubHeader.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.SubHeader.Location = new System.Drawing.Point(704, 43);
+            this.SubHeader.Location = new System.Drawing.Point(704, 68);
             this.SubHeader.Name = "SubHeader";
             this.SubHeader.Size = new System.Drawing.Size(122, 35);
             this.SubHeader.TabIndex = 14;
@@ -307,12 +308,13 @@
             this.Controls.Add(this.txtEditor);
             this.Controls.Add(this.btnDynText);
             this.Controls.Add(this.menuMain);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuMain;
             this.Name = "formEditor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Editor";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.formEditor_FormClosing);
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.formEditor_Load);
             this.menuMain.ResumeLayout(false);
             this.menuMain.PerformLayout();
             this.ResumeLayout(false);
