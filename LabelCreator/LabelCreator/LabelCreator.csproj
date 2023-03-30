@@ -62,7 +62,6 @@
     <Compile Include="Methods.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CodeFile1.cs" />
     <Compile Include="Constants.cs">
       <SubType>Form</SubType>
     </Compile>

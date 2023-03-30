@@ -17,7 +17,4 @@ namespace LabelCreator
 
         public List<LabelItemDTO> LabelItems { get; set; }
     }
-
-    
-
 }

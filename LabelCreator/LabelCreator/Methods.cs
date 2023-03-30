@@ -14,6 +14,8 @@ namespace LabelCreator
         private LabelDTO openData;
         int fontSize = 8;
         string fontName = "MS Sans Serif";
+
+        //Saves the data
         public void SaveData(LabelDTO label)
         {
             string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\my_file.txt";
@@ -146,6 +148,7 @@ namespace LabelCreator
                 ChangeFont(rtb);
             }
         }
+
         private void TextBox_MouseDown(object sender, MouseEventArgs e)
         {
             lastClickedTextBox = sender as Tile2;
