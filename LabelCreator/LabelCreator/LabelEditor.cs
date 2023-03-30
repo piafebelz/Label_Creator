@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
-using System.Drawing.Printing;
 using System.IO;
 using System.Windows.Forms;
 
@@ -133,10 +132,6 @@ namespace LabelCreator
                         foreach (Control control in controls)
                             if (control is Tile|| control is Tile2|| control is Panel)
                                 this.Controls.Remove(control);
-                           // else if (control is Tile2)
-                             //   this.Controls.Remove(control);
-                            //else if (control is Panel)
-                                //this.Controls.Remove(control);
                             else
                                 func(control.Controls);
                     };
