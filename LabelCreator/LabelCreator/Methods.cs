@@ -33,20 +33,7 @@ namespace LabelCreator
                     savedData = (LabelDTO)serializer.Deserialize(file, typeof(LabelDTO));
                 }
             }
-            /*HashSet<LabelItemDTO> savedItems = new HashSet<LabelItemDTO>();
-            if (savedData != null)
-            {
-                savedItems = new HashSet<LabelItemDTO>(savedData.LabelItems);
-            }
-
-            // Clear the current label items before adding new items
-            label.LabelItems.Clear();
-
-            /*foreach (LabelItemDTO savedItem in savedItems)
-            {
-                // Add the previously saved items to the label
-                label.LabelItems.Add(savedItem);
-            }*/
+            
             foreach (LabelItemDTO item in label.LabelItems)
             {
                 if (item.ItemType is LabelItemType.Image || item.ItemType is LabelItemType.StaticImage)
@@ -93,22 +80,6 @@ namespace LabelCreator
                     item.ID = reference.ID;
                 }
             }
-            /*foreach (LabelItemDTO savedItem in savedItems)
-            {
-                if (!label.LabelItems.Any(x => x.ID == savedItem.ID))
-                {
-                    label.LabelItems.Add(savedItem);
-                }
-                else
-                {
-                    var index = label.LabelItems.FindIndex(x => x.ID == savedItem.ID);
-                    var reference = label.LabelItems[index].ItemReference as Tile;
-                    if (reference != null)
-                    {
-                        label.LabelItems[index].Value = reference.Image.ToBase64();
-                    }
-                }
-            }*/
             if (savedData != null)
             {
                 foreach (LabelItemDTO item in savedData.LabelItems)
